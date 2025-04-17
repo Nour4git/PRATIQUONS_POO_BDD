@@ -23,7 +23,6 @@ public class Vol {
         return villeArrive;
     }
 
-    // 
     public void setNumeroVol(String numeroVol) {
         this.numeroVol = numeroVol;
     }
@@ -39,11 +38,7 @@ public class Vol {
     
     @Override
     public String toString() {
-        return "Vol{" +
-                "numeroVol='" + numeroVol + '\'' +
-                ", villeDepart='" + villeDepart + '\'' +
-                ", villeArrive='" + villeArrive + '\'' +
-                '}';
+       return "Vol(" + numeroVol + ", " + villeDepart + ", " + villeArrive + ")";
     }
 }
 
